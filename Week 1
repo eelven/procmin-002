@@ -1,0 +1,53 @@
+Lecture 1.1: Data Science and Big Data (17min)
+
+Data is the new oil !
+In the last 10 min. we generated more data than from prehistoric times until 2003 !
+We are all generating event data : bying a coffee, making a phone call, appointment, ...
+Internet of Events = all the data that is being recorded in all kind of ways.
+
+4 different sources of event data
+-Internet of content: classical internet that we know: google, wikipedia
+-Internet of people: twitter, facebook, social events that generate data
+-Internet of things: Another source of event data, device conected to internet, refrigerator, ...
+- Internet of places:  The sensors on your phone recording when you are or what you are doing...
+
+Big Data: 
+Incredible amounts of event data that are being recorded
+Moore's law -> 2sqrt(20) = 1.048.576x in 40 years
+The challenge today is not generate more data, the challenge is to turn this data into real value.
+
+4 V's of Big Data:
+-Volume: Data size
+-Velocity: Speed of change
+-Variety: Different forms of data sources
+-Veracity: Uncertainty of data
+
+Data does not habe to be "big" to be challenging
+data analytics quastion are everywhere, Need for data scientists!
+A data scientist is able to collect, analyze and interpret data from a variety of sources 
+Turning data into value
+
+4 generic data science questions that you can ask in any situation:
+1-What happened?
+2-Why did it happen?
+3-What will happen?
+4-What is the best that can happen?
+
+Data science skills needed to answer such questions
+you need to be able to deal with incredibly large databases, have knowledge of social sciences,
+think about the value of data, how can extract value from it, apply process mining techniques to
+these data, to learn and improve process.
+Focus on the analysis on process is based on data, process are key, you don't want to improve data,
+you want to improve processes. They are the thing that matter. Not the data, Not the software
+It's also different from data mining: not interested in just isolated decisions or low level patterns,
+interested in improving end-to-end processes, that's a key thing.
+Focus in on the interplay between event data and process
+What are the 'highways' in my process?
+What factors are influencing a bottleneck?
+Can we predict problems(delay, deviation, risk,etc.)for running cases?
+Can we recommend countermeasures?
+How to redesign the process/organization/machine
+...
+Process Mining is Data Science in Action, we are looking at the dynamics of machines and
+business processes and try to learn from them and improve them
+ 
