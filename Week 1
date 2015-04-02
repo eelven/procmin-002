@@ -53,3 +53,57 @@ How to redesign the process/organization/machine
 Process Mining is Data Science in Action, we are looking at the dynamics of machines and
 business processes and try to learn from them and improve them
  
+           - - - - - - - - - -          - - - - - - - - - - 
+ 
+ Lecture 1.2: Different Types of Process Mining (21min)
+ 
+ 3 types mining
+ -Process discovery
+ -Performance checking
+ -Enhancement
+ 
+Process mining is bridging the gap between classical process model analysis and data oriented analysis
+like mining and machine learning, process mining is bridging this gap because it's focusing on processes, 
+but at the same time, using the real data.
+In classical data mining people typically do not look at the processes, especially not end to end processes,
+In areas where people are concerned with process model analysis,they typically ignore the data.
+We are doing process mining to answer performance related questions and compliance related questions.
+
+The starting point for process mining is event data; An event has different properties, so there are generic
+types of properties.
+
+We are focusing on the relationship between process models and event data
+3 types of relationships between models and event data:
+-play-out
+-play-in
+-replay
+
+Play-Out: The basic idea is that you start from a model, and from that model, you generate behavior.
+If you are using simulation or if you are building an information system that is driven by such models, 
+play-out is the thing that you are doing.
+
+Play-In: From even data to the corresponding process model  
+The basic idea is you look at the number of example behaviors and you automacally  infer a model from it
+We are automatically learning a model from examples.
+no modelling is needed, we are not making any models by hand, we automatically infer process models from 
+raw even data.
+
+Replay: The key element is that you can replay a reality on top of models, is important you try to replay
+reality on top of the model.
+We see the rejection, we can record a problem, provide diagnostics, continue our replay; we can see where 
+the deviations are.
+Replay is not about conformance, it's also about performance analysis
+Replaying you can see exactly where delays take place, you can startg investigating what is causing them.
+
+Overwiew
+We have a real world where things are happening, we have a software system that is, somehow, recording 
+events of the things that take place. People objecting to the valuation of their house. Patients being
+treated in a hospital. Then we have this event data and we can do discovery, automatically learning
+process models, we can do conformance checking, comparing the event log to the process model and we can
+enrich, it's called enhancement, we can enrich the process model with information about deviations and 
+performance.
+Play-out is about the classical process models not involving any event data
+Play-in corresponds to discovery, you automatically learn a process model without any modeling from raw
+event data
+Replay where you compare a process model to an event log, to check conformance, to investigate performance
+problems, etc.
