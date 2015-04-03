@@ -200,3 +200,28 @@ End-to-end process models and concurrency are essential for process mining
 Process mining assumes event logs where events have timestamps and refer to cases (process intances)
 Process mining and data mining can be combined to answer very advanced questions, so that's important.
 
+           - - - - - - - - - -          - - - - - - - - - - 
+
+Lecture 1.4: Learning Decision Trees (27min)
+
+In a decision tree we have a number of predictor variables, and based on these predictor variables.
+We try to predict, what the so-called response variable is.
+Decision tree learning is a form of supervised learning, because the data is labeled. Labeled using the
+response variable. In our case, this is categorical data.
+The is so called a decision tree, it is learned based on the data. and what it tells you
+We can use decision tree to make predictions over unseen instances.
+Split the set of instances in subsets such that the variation within each subset becomes smaller.
+The idea is that we split nodes that we are uncertain about into smaller sets, smaller classes that are
+more homogenous
+Is crucial for understanding decision trees a good understanding of the notion of entropy.
+Entropy is the degree of uncertainty, one can also think of entropy as the inverse of compressibility or
+zippability. if there is very little variation within a group, then we can compress the data very much.
+The goal is to reduce the entropy in the leaves of the decision tree and in this way improve the 
+predictability of elements that belong to a particular class
+
+To formalize the notion of entropy, we need to use logartithms
+formula for entropy:
+E = - Sum (k, i=1)pi log2(pi)
+k possible values enumerated 1, 2, ..., k
+pi = ci/n is the fraction of elements having value i
+with ci>=1 the number of i values and n = sum(k, i=1)ci
