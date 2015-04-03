@@ -107,3 +107,96 @@ Play-in corresponds to discovery, you automatically learn a process model withou
 event data
 Replay where you compare a process model to an event log, to check conformance, to investigate performance
 problems, etc.
+
+           - - - - - - - - - -          - - - - - - - - - - 
+
+Lecture 1.3: How Process Mining Relates to Data Mining (20min)
+
+Process mining is the missig link between model based analysis, process model based analysis, and data
+oriented analysis like data mining, with the goal to answer performance oriented questions and complience
+oriented questions.
+We can think of process mining as super glue, the glue between data and processes, glue between business
+people and IT people, glue business intelligence and business process management, glue between performance
+and compliance and you can do this at runtime and at design time, so it's connecting many different things
+and that makes it so incredibly valuable.
+Process mining consists of differents types of mining and here you can see (graph 01:31) process discovery
+and conformance checking, later we will also look at predictive analytics, how you can use process mining
+to predict things about the future.
+
+4 different data sets, each consisting of 11 elements(02:18)
+
+One can think of process mining as finding desire lines
+
+analogy1:  the trail can be seen as event data, and the sign saying that you should not walk there (03:43)
+that you should use the official route can be seen as the process model. You try to uncover the desire lines, 
+what do people really do.
+
+analogy2: (04:11) it is clearly showing that people do not follow the process model, the gate that you see
+here is aimed of keeping cyclist out of this park, but what you can see is that the desire line is showing
+that people do not follow the things that they should do here, so the gate does not work as it is supposed
+to work. 
+Using process mining and conformance checking, you can use and show these types of things.
+
+Process mining in action (ProM6) (05:10)
+
+The example a child learning language(08:10) analogic, we can see a sentence and compare that to a trace
+in an event log, and we can think of the language as a process model; this is the relationship between
+understanding a language based on examples from learning a process model just by looking at the examples.
+You want to see how does reality deviate from the modeled process, you can compare that to spell checking,
+so the spell checker has a model of the language, and you type a piece of text and then it is checked,
+wether that piece of text fits the language, as it has been formalized. This can be compared to the typical
+diagnostics that you get when you do conformance checking in the are of process mining, so you see activies
+that have happened, but that should not happen, or the other way around, or you will see activities that
+were executed too late, or too early, or by the wrong person. This can all be compared by spell checking.
+
+We  focus on the topic of Data Mining, process mining is very different from the classical data mining 
+techniques, but are many relationships, so in this course you will also get a basic understanding of
+what process mining is all about and of course all data mining.
+
+The growth of the digital universe is driving the fact that many people are using data mining techniques
+Initially the term data mining had a very negative connotation, people talked about it as data snooping,
+fishing, etc; Statiscians did not consider it the proper way to do, but this is now a very mature
+discipline driven by these huge amounts of data, but data mining is data-centric and not process-centric
+
+Variables
+Data set(sample or table) consists of instances(individuals, entities, cases, objects or records)
+Variables are often referred to as attributes, features or data elements.
+We can find 2 differents groups:
+1- Categorical Variables:
+ -ordinal(high-med-low, cum laude-passed-failed) or
+ -nominal(true, false, red-pink-green)
+2- Numerical Variables
+ -ordered, cannot be enumerated easily
+ 
+2 types of data mining techniques: Supervised and unsupervised learning
+- Supervised learning:
+We have labeled data, means that there is a response variable that labels the instance.
+The goal of supervised learning is to learn from the other variables that are called
+predictor variables, what our response variable is going to be, instead of response
+variable, we also talk about dependent variables and instead of predictor variables we
+also talked about independent variables and the goal is to explain the dependent 
+variable in terms of the independent variables.
+
+Classification techniques, like learning decision tree, assume a categorial response variable
+and the goal is to classify instances based on the predictor variables.
+
+Regression techniques assume a numerical response variable. The goal is to find a function that
+fits the data with the least error.
+
+- Unsupervised learning:
+Assumes unlabeled data, i.e., the variables are not split into response and predictor variables.
+Examples: Clustering(e.g., k-means clustering and agglomerative hierarchical clustering) and 
+pattern discovery(association rules)
+ 
+There are many data mining tools available: RapidMiner, R, Weka, KNIME, SAS, IBM SPSS, IBM Cognos,
+QlikView, SAP Business Objects/HANA
+
+There are many difference between processes mining and data mining:
+Both start from data, but data mining techniques are not process-centric, they look at isolated
+decisions of the type that I've just shown to you.
+Topic such as process discovery, conformance checking, and bottleneck analysis are not addressed
+by traditional data mining techniques, you need to have process mining for that.
+End-to-end process models and concurrency are essential for process mining
+Process mining assumes event logs where events have timestamps and refer to cases (process intances)
+Process mining and data mining can be combined to answer very advanced questions, so that's important.
+
