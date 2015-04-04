@@ -225,3 +225,27 @@ E = - Sum (k, i=1)pi log2(pi)
 k possible values enumerated 1, 2, ..., k
 pi = ci/n is the fraction of elements having value i
 with ci>=1 the number of i values and n = sum(k, i=1)ci
+
+video(17min)
+
+Goal: maximize information gain (stop if not possible)
+
+Decision tree algorithm(sketch)
+Start with root node corresponding to all instances
+Iteratively transverse all nodes to see wheter "information gain" is possible
+For each node an for every attribute, check what the effect os splitting the node is in terms of information gain
+Select the attibute with the biggest information gain above a given threshold.
+Continue untill no significant improvement is possible
+Return the decision tree
+
+There are many parameters/variations are possible
+The minimal size of a node before or after splitting
+Threshold setting the minimal gain(no split if information gain is too small)
+Maximal depth of the tree
+Allowing the same label to appear multiple times or not
+
+Alternatives to entropy, e.g.: Gini index of diversity
+G = sum(k, i=1) pi(1-pi) = 1 - sum(k, i=1) (pi)sqrt2 with pi = ci/n
+Splitting the domain of a numerical variable
+Post pruning: removing leaf nodes that do not significantly increase the discriminative power
+
