@@ -249,3 +249,25 @@ G = sum(k, i=1) pi(1-pi) = 1 - sum(k, i=1) (pi)sqrt2 with pi = ci/n
 Splitting the domain of a numerical variable
 Post pruning: removing leaf nodes that do not significantly increase the discriminative power
 
+           - - - - - - - - - -          - - - - - - - - - - 
+
+Lecture 1.5: Applying Decision Trees (21min)
+
+Iteractively reduce the overall level of uncertainly (entropy) using label splitting until no 
+significant information gain is possible.
+
+RapidMiner is an integrated extendible environment for machine learning, data mining, text mining and
+predictive analytics.
+RapidMiner Marketplace also provides a ProM extension for mining.
+There are 2 versions: Commercial and open-source version of the software
+(08:00min) = example using RapidMiner
+csv file located into the repository
+load data set
+create decision tree
+apply decision tree to data set
+measure performance
+Reasonable balance between underfitting and overfitting, Can be used to understand what is happening and Can be 
+used for predictions and recommendations, so, this is exactly how we would like to use these decision trees.
+
+           - - - - - - - - - -          - - - - - - - - - - 
+
